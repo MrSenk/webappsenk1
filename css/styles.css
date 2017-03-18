@@ -1,0 +1,197 @@
+/* line 1, dev/sass/styles.sass */
+body {
+  margin: 0;
+  background: #e3e3e3;
+  font-family: 'Roboto', serif;
+}
+
+/* line 6, dev/sass/styles.sass */
+.header {
+  background: #ED5A5A;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* line 13, dev/sass/styles.sass */
+#back {
+  margin-left: -100px;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+
+/* line 17, dev/sass/styles.sass */
+#back:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+/* line 20, dev/sass/styles.sass */
+.text {
+  padding: 30px 10px;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* line 27, dev/sass/styles.sass */
+.website {
+  margin: 50px auto;
+  background: #fff;
+  max-width: 700px;
+  box-shadow: 0px 25px 30px -20px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+/* line 34, dev/sass/styles.sass */
+.grid {
+  padding: 10px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+/* line 37, dev/sass/styles.sass */
+.grid .item {
+  background: #ccc;
+  height: 60px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 20px;
+  box-sizing: border-box;
+  color: white;
+  width: 160px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 52, dev/sass/styles.sass */
+.grid .item:nth-child(1) {
+  background-image: url(../images/one.jpg);
+}
+
+/* line 54, dev/sass/styles.sass */
+.grid .item:nth-child(2) {
+  background-image: url(../images/two.jpg);
+}
+
+/* line 56, dev/sass/styles.sass */
+.grid .item:nth-child(3) {
+  background-image: url(../images/three.jpg);
+}
+
+/* line 58, dev/sass/styles.sass */
+.grid .item:nth-child(4) {
+  background-image: url(../images/four.jpg);
+}
+
+/* line 60, dev/sass/styles.sass */
+.grid .item:nth-child(5) {
+  background-image: url(../images/five.jpg);
+}
+
+/* line 62, dev/sass/styles.sass */
+.grid .item:nth-child(6) {
+  background-image: url(../images/six.png);
+}
+
+/* line 64, dev/sass/styles.sass */
+.grid .item:nth-child(7) {
+  background-image: url(../images/seven.jpg);
+}
+
+/* line 66, dev/sass/styles.sass */
+.grid .item:nth-child(8) {
+  background-image: url(../images/eight.gif);
+}
+
+/* line 68, dev/sass/styles.sass */
+.grid .item:nth-child(9) {
+  background-image: url(../images/nine.jpg);
+}
+
+/* line 70, dev/sass/styles.sass */
+.grid .item:nth-child(10) {
+  background-image: url(../images/ten.jpg);
+}
+
+/* line 72, dev/sass/styles.sass */
+.grid .item:nth-child(11) {
+  background-image: url(../images/eleven.jpg);
+}
+
+/* line 74, dev/sass/styles.sass */
+.grid .item:nth-child(12) {
+  background-image: url(../images/twelve.png);
+}
+
+/* line 76, dev/sass/styles.sass */
+.grid .item:nth-child(13) {
+  background-image: url(../images/thirteen.jpg);
+}
+
+/* line 78, dev/sass/styles.sass */
+.grid .item:nth-child(14) {
+  background-image: url(../images/fourteen.png);
+}
+
+/* line 80, dev/sass/styles.sass */
+.grid .item:nth-child(15) {
+  background-image: url(../images/fifteen.jpg);
+}
+
+/* line 82, dev/sass/styles.sass */
+.grid .item:nth-child(16) {
+  background-image: url(../images/sixteen.png);
+}
+
+/* line 84, dev/sass/styles.sass */
+.grid .item:nth-child(17) {
+  background-image: url(../images/seventeen.jpg);
+}
+
+/* line 86, dev/sass/styles.sass */
+.grid .item:nth-child(18) {
+  background-image: url(../images/eighteen.jpg);
+}
+
+/* line 88, dev/sass/styles.sass */
+.grid .item:nth-child(19) {
+  background-image: url(../images/nineteen.jpg);
+}
+
+/* line 90, dev/sass/styles.sass */
+.grid .item:nth-child(20) {
+  background-image: url(../images/twenty.jpg);
+}
+
+/* line 93, dev/sass/styles.sass */
+.grid .item:nth-child(n) {
+  position: relative;
+  height: 140px;
+  z-index: 0;
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+/* line 102, dev/sass/styles.sass */
+.grid .item:nth-child(n):hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  z-index: 999;
+}
